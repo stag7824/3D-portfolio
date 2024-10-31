@@ -31,10 +31,10 @@ const Contact = () => {
         import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
         {
           from_name: form.name,
-          to_name: "JavaScript Mastery",
+          to_name: "Portfolio Website",
           from_email: form.email,
-          to_email: "sujata@jsmastery.pro",
-          message: form.message,
+          to_email: import.meta.env.VITE_APP_EMAILJS_EMAIL_ID,
+          message: form.message + "\n\n best, \n" + form.email,
         },
         import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
       )
@@ -64,7 +64,7 @@ const Contact = () => {
 
           showAlert({
             show: true,
-            text: "I didn't receive your message 😢",
+            text: "I didn't receive your message 😢, you can email me directly",
             type: "danger",
           });
         }

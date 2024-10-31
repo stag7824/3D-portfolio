@@ -26,8 +26,15 @@ import arrow from './arrow.svg'
 import contact from './contact.svg'
 import soundon from './soundon.png'
 import soundoff from './soundoff.png'
+import whatsapp from './whatsapp.svg'
+import email from './email.svg'
+import tcf from './tcf.svg'
+import mindstorm from './mindstorm.svg';
+import bahl from './bahl.svg';
 
 export {
+    mindstorm,
+    bahl,
     css,
     express,
     git,
@@ -55,5 +62,8 @@ export {
     arrow,
     contact,
     soundon,
-    soundoff
+    soundoff,
+    email,
+    whatsapp,
+    tcf
 }

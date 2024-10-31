@@ -22,8 +22,8 @@ const About = () => {
 
       <div className='mt-5 flex flex-col gap-3 text-slate-500'>
         <p>
-          Software Engineer based in Pakistan, specializing in technical
-          education through hands-on learning and building applications.
+          Software Engineer based in Islamabad, Pakistan, specializing in technical
+          full stack web applications.
         </p>
       </div>
 

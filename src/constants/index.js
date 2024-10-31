@@ -1,4 +1,5 @@
 import { meta, shopify, starbucks, tesla } from "../assets/images";
+
 import {
     car,
     contact,
@@ -23,7 +24,12 @@ import {
     summiz,
     tailwindcss,
     threads,
-    typescript
+    typescript, 
+    whatsapp,
+    email,
+    tcf,
+    mindstorm,
+    bahl
 } from "../assets/icons";
 
 export const skills = [
@@ -111,83 +117,114 @@ export const skills = [
 
 export const experiences = [
     {
-        title: "React.js Developer",
-        company_name: "Starbucks",
-        icon: starbucks,
-        iconBg: "#accbe1",
-        date: "March 2020 - April 2021",
+        title: "Software Engineer",
+        company_name: "Bank Al Habib",
+        icon: bahl, // Bank Al Habib logo import or path
+        iconBg: "#fff",//"#007849", // Bank Al Habib's blue color
+        date: "October 2022 - Present",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Collaborated with a team of 5 developers to improve the bank's reporting system, implementing Microservices, pagination, and API pooling.",
+            "Enhanced the reporting system with Jest for unit testing, ensuring responsiveness and smooth interaction.",
+            "Utilized BIRT for report generation, reducing report printing time by 40% for large datasets.",
+            "Upgraded system performance by introducing microservices architecture, doubling concurrent report request capacity.",
+            "Built backend services with Quarkus, and managed frontend state with Vuex and XState, enhancing user experience and application stability.",
+            "Digitized loan origination by transitioning from Excel to a web application using ASP.NET Core MVC and SQL Server, resulting in significant performance gains."
         ],
     },
     {
-        title: "React Native Developer",
-        company_name: "Tesla",
-        icon: tesla,
-        iconBg: "#fbc3bc",
-        date: "Jan 2021 - Feb 2022",
+        title: "Game Development Intern",
+        company_name: "Mindstorm Studios",
+        icon: mindstorm, // Mindstorm Studios logo import or path
+        iconBg: "#000", // Mindstorm Studios' coral color
+        date: "July 2021 - October 2021",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Developed a game using Unity as part of a remote team of 3 developers.",
+            "Collaborated effectively to meet milestones, ensuring timely project progress and quality."
         ],
     },
     {
-        title: "Web Developer",
-        company_name: "Shopify",
-        icon: shopify,
-        iconBg: "#b7e4c7",
-        date: "Jan 2022 - Jan 2023",
+        title: "Social Intern",
+        company_name: "The Citizens Foundation (Alumni Development Program)",
+        icon: tcf, // TCF logo import or path
+        iconBg: "#fff", // TCF's green color
+        date: "October 2020 - March 2021",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
-    {
-        title: "Full stack Developer",
-        company_name: "Meta",
-        icon: meta,
-        iconBg: "#a2d2ff",
-        date: "Jan 2023 - Present",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Managed teacher presence and logistical needs to ensure smooth operations for student education.",
+            "Coordinated resources and provided necessary support to facilitate a conducive learning environment."
         ],
     },
 ];
+
 
 export const socialLinks = [
     {
         name: 'Contact',
         iconUrl: contact,
-        link: '/contact',
+        link: 'tel:+923121054485',
+    },
+    {
+        name: 'Email',
+        iconUrl: email,
+        link: 'mailto:atalha54@gmail.com',
+    },
+    {
+        name: 'Whatsapp',
+        iconUrl: whatsapp,
+        link: 'https://wa.me/+923121054485',
     },
     {
         name: 'GitHub',
         iconUrl: github,
-        link: 'https://github.com/YourGitHubUsername',
+        link: 'https://github.com/stag7824',
     },
     {
         name: 'LinkedIn',
         iconUrl: linkedin,
-        link: 'https://www.linkedin.com/in/YourLinkedInUsername',
+        link: 'https://www.linkedin.com/in/stagify',
     }
 ];
 
 export const projects = [
-    {
-        iconUrl: pricewise,
-        theme: 'btn-back-red',
-        name: 'CV_designer',
-        description: 'Developed a web application that tracks and notifies users of price changes for products on Amazon, helping users find the best deals.',
-        link: 'https://github.com/stag7824/CVdesigner',
-    },
+    // {
+    //     iconUrl: pricewise,
+    //     theme: 'btn-back-red',
+    //     name: 'Amazon Price Tracker',
+    //     description: 'Developed a web application that tracks and notifies users of price changes for products on Amazon, helping users find the best deals.',
+    //     link: 'https://github.com/adrianhajdin/pricewise',
+    // },
+    // {
+    //     iconUrl: threads,
+    //     theme: 'btn-back-green',
+    //     name: 'Full Stack Threads Clone',
+    //     description: 'Created a full-stack replica of the popular discussion platform "Threads," enabling users to post and engage in threaded conversations.',
+    //     link: 'https://github.com/adrianhajdin/threads',
+    // },
+    // {
+    //     iconUrl: car,
+    //     theme: 'btn-back-blue',
+    //     name: 'Car Finding App',
+    //     description: 'Designed and built a mobile app for finding and comparing cars on the market, streamlining the car-buying process.',
+    //     link: 'https://github.com/adrianhajdin/project_next13_car_showcase',
+    // },
+    // {
+    //     iconUrl: snapgram,
+    //     theme: 'btn-back-pink',
+    //     name: 'Full Stack Instagram Clone',
+    //     description: 'Built a complete clone of Instagram, allowing users to share photos and connect with friends in a familiar social media environment.',
+    //     link: 'https://github.com/adrianhajdin/social_media_app',
+    // },
+    // {
+    //     iconUrl: estate,
+    //     theme: 'btn-back-black',
+    //     name: 'Real-Estate Application',
+    //     description: 'Developed a web application for real estate listings, facilitating property searches and connecting buyers with sellers.',
+    //     link: 'https://github.com/adrianhajdin/projects_realestate',
+    // },
+    // {
+    //     iconUrl: summiz,
+    //     theme: 'btn-back-yellow',
+    //     name: 'AI Summarizer Application',
+    //     description: 'App that leverages AI to automatically generate concise & informative summaries from lengthy text content, or blogs.',
+    //     link: 'https://github.com/adrianhajdin/project_ai_summarizer',
+    // }
 ];
